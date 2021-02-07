@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(73, 79, 82);
+  color: white;
+}
+.searchBar{
+  width: 30rem; 
+  background:#eeedf0; 
+  border: 1px #000 solid; 
+  padding: 10px;
+}
+.nav-Links{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.container{
+  text-align: center;
+}
+
+.searchContainer{
+  text-align: center;
+  padding: 2rem;
+}
+
+.searchButton{
+  border: 1px #000 solid;
+  padding: 10px 20px;
+}
+
+.error{
+  color: red;
+}
